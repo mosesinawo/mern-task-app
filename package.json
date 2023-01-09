@@ -9,7 +9,7 @@
     "frontend": "npm start --prefix frontend",
     "both": "concurrently \"npm run backend\" \"npm run frontend\""
   },
-  "author": "Moses",
+  "author": "Moses Inawo",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",

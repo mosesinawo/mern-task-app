@@ -7,11 +7,12 @@
     "start": "node backend/server.js",
     "backend": "nodemon backend/server.js",
     "frontend": "npm start --prefix frontend",
-    "both": "concurrently\" npm run backend\" \"npm run frontend\""
+    "both": "concurrently \"npm run backend\" \"npm run frontend\""
   },
   "author": "Moses",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mongoose": "^6.8.2"
